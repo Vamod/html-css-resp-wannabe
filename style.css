@@ -76,7 +76,6 @@ img {
 @media screen and (max-width: 420px) {
 
     * {
-        margin: 0;
         padding: 0;
         box-sizing: border-box;
     }
@@ -128,5 +127,9 @@ img {
 
     .first p, .second p, .third p {
         margin-bottom: 10px;
+    }
+
+    img {
+        height: 150px;
     }
 }
